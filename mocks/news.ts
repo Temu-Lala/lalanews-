@@ -1,0 +1,65 @@
+import { NewsItem } from '@/types';
+
+export const newsItems: NewsItem[] = [
+  {
+    id: '1',
+    title: 'React Native 0.72 Released with New Features',
+    content: 'The React Native team has announced the release of version 0.72, bringing significant performance improvements and new APIs. The update includes a revamped architecture, improved start-up time, and better integration with native modules.',
+    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
+    source: 'React Native Blog',
+    category: 'Technology',
+    createdAt: '2023-06-15T09:00:00Z',
+    isOfficial: true,
+  },
+  {
+    id: '2',
+    title: 'Expo SDK 49 Announced with New Features',
+    content: 'Expo has announced SDK 49 with support for the latest React Native version and several new features. The update includes improved web support, new APIs for accessing device features, and better performance across all platforms.',
+    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
+    source: 'Expo Blog',
+    category: 'Technology',
+    createdAt: '2023-06-14T14:30:00Z',
+    isOfficial: true,
+  },
+  {
+    id: '3',
+    title: 'React Native Community Conference Announced',
+    content: 'The annual React Native Community Conference has been announced for September 2023. The three-day event will feature talks from core team members, workshops, and networking opportunities. Early bird tickets are now available.',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
+    source: 'React Native Community',
+    category: 'Events',
+    createdAt: '2023-06-13T11:15:00Z',
+    isOfficial: true,
+  },
+  {
+    id: '4',
+    title: 'New React Native Performance Monitoring Tool Released',
+    content: 'A new open-source tool for monitoring React Native app performance has been released. The tool provides real-time metrics on render times, memory usage, and network requests, helping developers identify and fix performance bottlenecks.',
+    source: 'GitHub Blog',
+    category: 'Tools',
+    createdAt: '2023-06-12T16:45:00Z',
+    isOfficial: false,
+  },
+  {
+    id: '5',
+    title: 'React Native Now Powers Over 1 Million Mobile Apps',
+    content: 'According to a new report, React Native is now used in over 1 million mobile applications across iOS and Android. The framework continues to grow in popularity due to its cross-platform capabilities and strong community support.',
+    image: 'https://images.unsplash.com/photo-1551650992-ee4fd47df41f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
+    source: 'Mobile Dev Insights',
+    category: 'Industry',
+    createdAt: '2023-06-11T08:30:00Z',
+    isOfficial: false,
+  },
+  {
+    id: '6',
+    title: 'React Native Community Spotlight: Sarah Johnson',
+    content: 'In this month\'s community spotlight, we feature Sarah Johnson, a React Native developer who has contributed several key improvements to the framework. Sarah discusses her journey with React Native and shares tips for new developers.',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
+    source: 'React Native Community',
+    category: 'Community',
+    createdAt: '2023-06-10T13:20:00Z',
+    isOfficial: true,
+  },
+];
+
+export default newsItems;
